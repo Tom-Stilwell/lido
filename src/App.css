@@ -3,8 +3,9 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
+  margin-bottom: 40px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.sheet-values {
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  /* grid-auto-flow: column; */
+  font-size: 24px;
+  height: 200px;
+}
+
+.col-titles {
+  display: grid;
+  grid-auto-flow: column;
+  margin-left: 20px;
+}
+
+.col-rows {
+  display: grid;
+  float: left;
+  height: 200px;
+  margin-right: 10px;
 }
